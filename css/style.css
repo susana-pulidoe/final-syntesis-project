@@ -4,7 +4,7 @@ html {
 
 body {
   margin: 0;
-  background-color: #ffffff;
+  background-color: lightcyan;
 }
 
 header h1 {
@@ -99,7 +99,7 @@ footer a:hover {
 
 .tab {
   overflow: hidden;
-  border: 1px solid #ccc;
+  border: 1px solid#ccc;
   background-color: #f1f1f1;
   width: 800px;
   margin: 0 auto;
@@ -119,12 +119,12 @@ footer a:hover {
 
 /* Change background color of buttons on hover */
 .tab button:hover {
-  background-color: #ddd;
+  background-color: lightskyblue;
 }
 
 /* Create an active/current tablink class */
 .tab button.active {
-  background-color: #ccc;
+  background-color: lightskyblue;
 }
 
 /* Style the tab content */
@@ -132,7 +132,7 @@ footer a:hover {
   display: none;
   padding: 0.25rem 0;
   border: 1px solid #ccc;
-  background-color: #fff;
+  background-color: lightblue;
   border-top: none;
   border-radius: 0.5rem;
   width: 800px;
@@ -156,7 +156,7 @@ footer a:hover {
 }
 
 .subtitulo {
-  color: red;
+  color: darkred;
 }
 
 #imagenKepler1 {
@@ -172,6 +172,46 @@ footer a:hover {
 }
 
 #imagenKepler2 {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#imagenEjeIncli {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#imagenSistemaSolar {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#imagenLunasJupiter {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.subtituloColor {
+  color: darkblue;
+}
+
+#imagenGravedadLuna {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#imagenGravedadSol {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#imagenDisPlanets {
   display: block;
   margin-left: auto;
   margin-right: auto;
