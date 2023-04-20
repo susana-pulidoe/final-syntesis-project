@@ -4,11 +4,11 @@ html {
 
 body {
   margin: 0;
-  background-color: lightcyan;
+  background-image: url("https://static.scientificamerican.com/sciam/cache/file/8B819851-2DAD-4B3D-AF5270EACE5A5361.jpg");
 }
 
 header h1 {
-  background-color: #41596e;
+  background-color: #222;
   color: white;
   padding: 3rem 2rem;
   font-size: 3rem;
@@ -212,6 +212,12 @@ footer a:hover {
 }
 
 #imagenDisPlanets {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#imagenFormula {
   display: block;
   margin-left: auto;
   margin-right: auto;
