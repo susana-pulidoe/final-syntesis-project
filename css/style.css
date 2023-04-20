@@ -10,6 +10,7 @@ body {
 header h1 {
   background-color: #222;
   color: white;
+  filter: grayscale(10%) drop-shadow(5px 5px rgb(71, 73, 182));
   padding: 3rem 2rem;
   font-size: 3rem;
   text-align: center;
@@ -58,7 +59,7 @@ body p {
 }
 
 body p:hover {
-  box-shadow: 0 0.1rem 0.4rem rgba(0, 0, 0, 0.3);
+  box-shadow: 0 0.1rem 0.4rem rgba(86, 121, 216, 0.3);
 }
 
 footer {
@@ -119,7 +120,7 @@ footer a:hover {
 
 /* Change background color of buttons on hover */
 .tab button:hover {
-  background-color: lightskyblue;
+  background-color: darkblue;
 }
 
 /* Create an active/current tablink class */
